@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A664931FB3A19200EEBF8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664921FB3A19200EEBF8E /* AppDelegate.swift */; };
+		11A664951FB3A19200EEBF8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664941FB3A19200EEBF8E /* ViewController.swift */; };
+		11A664981FB3A19200EEBF8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A664961FB3A19200EEBF8E /* Main.storyboard */; };
+		11A6649A1FB3A19200EEBF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A664991FB3A19200EEBF8E /* Assets.xcassets */; };
+		11A6649D1FB3A19200EEBF8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A6649B1FB3A19200EEBF8E /* LaunchScreen.storyboard */; };
+		11A664A81FB3A19300EEBF8E /* PAVYL_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664A71FB3A19300EEBF8E /* PAVYL_iOSTests.swift */; };
+		11A664B31FB3A19300EEBF8E /* PAVYL_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664B21FB3A19300EEBF8E /* PAVYL_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A664A41FB3A19300EEBF8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A664871FB3A19200EEBF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A6648E1FB3A19200EEBF8E;
+			remoteInfo = "PAVYL-iOS";
+		};
+		11A664AF1FB3A19300EEBF8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A664871FB3A19200EEBF8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A6648E1FB3A19200EEBF8E;
+			remoteInfo = "PAVYL-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A6648F1FB3A19200EEBF8E /* PAVYL-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAVYL-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A664921FB3A19200EEBF8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A664941FB3A19200EEBF8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11A664971FB3A19200EEBF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A664991FB3A19200EEBF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A6649C1FB3A19200EEBF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A6649E1FB3A19200EEBF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A664A31FB3A19300EEBF8E /* PAVYL-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAVYL-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A664A71FB3A19300EEBF8E /* PAVYL_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAVYL_iOSTests.swift; sourceTree = "<group>"; };
+		11A664A91FB3A19300EEBF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A664AE1FB3A19300EEBF8E /* PAVYL-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAVYL-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A664B21FB3A19300EEBF8E /* PAVYL_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAVYL_iOSUITests.swift; sourceTree = "<group>"; };
+		11A664B41FB3A19300EEBF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A6648C1FB3A19200EEBF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A664A01FB3A19300EEBF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A664AB1FB3A19300EEBF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A664861FB3A19200EEBF8E = {
+			isa = PBXGroup;
+			children = (
+				11A664911FB3A19200EEBF8E /* PAVYL-iOS */,
+				11A664A61FB3A19300EEBF8E /* PAVYL-iOSTests */,
+				11A664B11FB3A19300EEBF8E /* PAVYL-iOSUITests */,
+				11A664901FB3A19200EEBF8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A664901FB3A19200EEBF8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A6648F1FB3A19200EEBF8E /* PAVYL-iOS.app */,
+				11A664A31FB3A19300EEBF8E /* PAVYL-iOSTests.xctest */,
+				11A664AE1FB3A19300EEBF8E /* PAVYL-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A664911FB3A19200EEBF8E /* PAVYL-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11A664921FB3A19200EEBF8E /* AppDelegate.swift */,
+				11A664941FB3A19200EEBF8E /* ViewController.swift */,
+				11A664961FB3A19200EEBF8E /* Main.storyboard */,
+				11A664991FB3A19200EEBF8E /* Assets.xcassets */,
+				11A6649B1FB3A19200EEBF8E /* LaunchScreen.storyboard */,
+				11A6649E1FB3A19200EEBF8E /* Info.plist */,
+			);
+			path = "PAVYL-iOS";
+			sourceTree = "<group>";
+		};
+		11A664A61FB3A19300EEBF8E /* PAVYL-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A664A71FB3A19300EEBF8E /* PAVYL_iOSTests.swift */,
+				11A664A91FB3A19300EEBF8E /* Info.plist */,
+			);
+			path = "PAVYL-iOSTests";
+			sourceTree = "<group>";
+		};
+		11A664B11FB3A19300EEBF8E /* PAVYL-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11A664B21FB3A19300EEBF8E /* PAVYL_iOSUITests.swift */,
+				11A664B41FB3A19300EEBF8E /* Info.plist */,
+			);
+			path = "PAVYL-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A6648E1FB3A19200EEBF8E /* PAVYL-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A664B71FB3A19300EEBF8E /* Build configuration list for PBXNativeTarget "PAVYL-iOS" */;
+			buildPhases = (
+				11A6648B1FB3A19200EEBF8E /* Sources */,
+				11A6648C1FB3A19200EEBF8E /* Frameworks */,
+				11A6648D1FB3A19200EEBF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PAVYL-iOS";
+			productName = "PAVYL-iOS";
+			productReference = 11A6648F1FB3A19200EEBF8E /* PAVYL-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A664A21FB3A19300EEBF8E /* PAVYL-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A664BA1FB3A19300EEBF8E /* Build configuration list for PBXNativeTarget "PAVYL-iOSTests" */;
+			buildPhases = (
+				11A6649F1FB3A19300EEBF8E /* Sources */,
+				11A664A01FB3A19300EEBF8E /* Frameworks */,
+				11A664A11FB3A19300EEBF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A664A51FB3A19300EEBF8E /* PBXTargetDependency */,
+			);
+			name = "PAVYL-iOSTests";
+			productName = "PAVYL-iOSTests";
+			productReference = 11A664A31FB3A19300EEBF8E /* PAVYL-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A664AD1FB3A19300EEBF8E /* PAVYL-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A664BD1FB3A19300EEBF8E /* Build configuration list for PBXNativeTarget "PAVYL-iOSUITests" */;
+			buildPhases = (
+				11A664AA1FB3A19300EEBF8E /* Sources */,
+				11A664AB1FB3A19300EEBF8E /* Frameworks */,
+				11A664AC1FB3A19300EEBF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A664B01FB3A19300EEBF8E /* PBXTargetDependency */,
+			);
+			name = "PAVYL-iOSUITests";
+			productName = "PAVYL-iOSUITests";
+			productReference = 11A664AE1FB3A19300EEBF8E /* PAVYL-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A664871FB3A19200EEBF8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Aidan Brady";
+				TargetAttributes = {
+					11A6648E1FB3A19200EEBF8E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					11A664A21FB3A19300EEBF8E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11A6648E1FB3A19200EEBF8E;
+					};
+					11A664AD1FB3A19300EEBF8E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11A6648E1FB3A19200EEBF8E;
+					};
+				};
+			};
+			buildConfigurationList = 11A6648A1FB3A19200EEBF8E /* Build configuration list for PBXProject "PAVYL-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A664861FB3A19200EEBF8E;
+			productRefGroup = 11A664901FB3A19200EEBF8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A6648E1FB3A19200EEBF8E /* PAVYL-iOS */,
+				11A664A21FB3A19300EEBF8E /* PAVYL-iOSTests */,
+				11A664AD1FB3A19300EEBF8E /* PAVYL-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A6648D1FB3A19200EEBF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A6649D1FB3A19200EEBF8E /* LaunchScreen.storyboard in Resources */,
+				11A6649A1FB3A19200EEBF8E /* Assets.xcassets in Resources */,
+				11A664981FB3A19200EEBF8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A664A11FB3A19300EEBF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A664AC1FB3A19300EEBF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A6648B1FB3A19200EEBF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A664951FB3A19200EEBF8E /* ViewController.swift in Sources */,
+				11A664931FB3A19200EEBF8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A6649F1FB3A19300EEBF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A664A81FB3A19300EEBF8E /* PAVYL_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A664AA1FB3A19300EEBF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A664B31FB3A19300EEBF8E /* PAVYL_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A664A51FB3A19300EEBF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A6648E1FB3A19200EEBF8E /* PAVYL-iOS */;
+			targetProxy = 11A664A41FB3A19300EEBF8E /* PBXContainerItemProxy */;
+		};
+		11A664B01FB3A19300EEBF8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A6648E1FB3A19200EEBF8E /* PAVYL-iOS */;
+			targetProxy = 11A664AF1FB3A19300EEBF8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11A664961FB3A19200EEBF8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A664971FB3A19200EEBF8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A6649B1FB3A19200EEBF8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A6649C1FB3A19200EEBF8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A664B51FB3A19300EEBF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A664B61FB3A19300EEBF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A664B81FB3A19300EEBF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBY56UWVE3;
+				INFOPLIST_FILE = "PAVYL-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidancbrady.PAVYL-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A664B91FB3A19300EEBF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBY56UWVE3;
+				INFOPLIST_FILE = "PAVYL-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidancbrady.PAVYL-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11A664BB1FB3A19300EEBF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBY56UWVE3;
+				INFOPLIST_FILE = "PAVYL-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidancbrady.PAVYL-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAVYL-iOS.app/PAVYL-iOS";
+			};
+			name = Debug;
+		};
+		11A664BC1FB3A19300EEBF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBY56UWVE3;
+				INFOPLIST_FILE = "PAVYL-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidancbrady.PAVYL-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAVYL-iOS.app/PAVYL-iOS";
+			};
+			name = Release;
+		};
+		11A664BE1FB3A19300EEBF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBY56UWVE3;
+				INFOPLIST_FILE = "PAVYL-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidancbrady.PAVYL-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PAVYL-iOS";
+			};
+			name = Debug;
+		};
+		11A664BF1FB3A19300EEBF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBY56UWVE3;
+				INFOPLIST_FILE = "PAVYL-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aidancbrady.PAVYL-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PAVYL-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A6648A1FB3A19200EEBF8E /* Build configuration list for PBXProject "PAVYL-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A664B51FB3A19300EEBF8E /* Debug */,
+				11A664B61FB3A19300EEBF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A664B71FB3A19300EEBF8E /* Build configuration list for PBXNativeTarget "PAVYL-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A664B81FB3A19300EEBF8E /* Debug */,
+				11A664B91FB3A19300EEBF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A664BA1FB3A19300EEBF8E /* Build configuration list for PBXNativeTarget "PAVYL-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A664BB1FB3A19300EEBF8E /* Debug */,
+				11A664BC1FB3A19300EEBF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A664BD1FB3A19300EEBF8E /* Build configuration list for PBXNativeTarget "PAVYL-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A664BE1FB3A19300EEBF8E /* Debug */,
+				11A664BF1FB3A19300EEBF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A664871FB3A19200EEBF8E /* Project object */;
+}
