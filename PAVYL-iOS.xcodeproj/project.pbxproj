@@ -7,16 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		119A35F91FB3BC210072448F /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119A35F61FB3BBFE0072448F /* Charts.framework */; };
+		119A35FA1FB3BC210072448F /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 119A35F61FB3BBFE0072448F /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		119A35FE1FB3C4690072448F /* EnterDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A35FD1FB3C4690072448F /* EnterDataController.swift */; };
+		119A36001FB3C4A70072448F /* DataDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A35FF1FB3C4A70072448F /* DataDetailController.swift */; };
+		119A36021FB3C7990072448F /* ChooseDateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A36011FB3C7990072448F /* ChooseDateController.swift */; };
+		119A36041FB3C83D0072448F /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A36031FB3C83D0072448F /* MapController.swift */; };
+		119A36061FB3C8660072448F /* GraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A36051FB3C8660072448F /* GraphController.swift */; };
+		119A36081FB3CB020072448F /* NetHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A36071FB3CB020072448F /* NetHandler.swift */; };
+		119A360C1FB3CB2E0072448F /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A360B1FB3CB2E0072448F /* SharedData.swift */; };
+		119A360E1FB3CCB10072448F /* OperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A360D1FB3CCB00072448F /* OperationsManager.swift */; };
+		119A36101FB3D0880072448F /* RatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A360F1FB3D0880072448F /* RatData.swift */; };
+		119A36121FB3DB8F0072448F /* AuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A36111FB3DB8F0072448F /* AuthHandler.swift */; };
+		119A36141FB3E0780072448F /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A36131FB3E0780072448F /* DataHandler.swift */; };
 		11A664931FB3A19200EEBF8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664921FB3A19200EEBF8E /* AppDelegate.swift */; };
-		11A664951FB3A19200EEBF8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664941FB3A19200EEBF8E /* ViewController.swift */; };
+		11A664951FB3A19200EEBF8E /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664941FB3A19200EEBF8E /* WelcomeController.swift */; };
 		11A664981FB3A19200EEBF8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A664961FB3A19200EEBF8E /* Main.storyboard */; };
 		11A6649A1FB3A19200EEBF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A664991FB3A19200EEBF8E /* Assets.xcassets */; };
 		11A6649D1FB3A19200EEBF8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A6649B1FB3A19200EEBF8E /* LaunchScreen.storyboard */; };
 		11A664A81FB3A19300EEBF8E /* PAVYL_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664A71FB3A19300EEBF8E /* PAVYL_iOSTests.swift */; };
 		11A664B31FB3A19300EEBF8E /* PAVYL_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664B21FB3A19300EEBF8E /* PAVYL_iOSUITests.swift */; };
+		11A664DE1FB3B41100EEBF8E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664DD1FB3B41100EEBF8E /* LoginController.swift */; };
+		11A664E01FB3B43900EEBF8E /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664DF1FB3B43900EEBF8E /* RegisterController.swift */; };
+		11A664E21FB3B44900EEBF8E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664E11FB3B44900EEBF8E /* MainController.swift */; };
+		11A664E41FB3B56700EEBF8E /* RatDataListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A664E31FB3B56700EEBF8E /* RatDataListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		119A35F51FB3BBFE0072448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119A35F01FB3BBFD0072448F /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		119A35F71FB3BBFE0072448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119A35F01FB3BBFD0072448F /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		119A35FB1FB3BC210072448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119A35F01FB3BBFD0072448F /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
 		11A664A41FB3A19300EEBF8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 11A664871FB3A19200EEBF8E /* Project object */;
@@ -33,10 +71,37 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		11A664CD1FB3AA3A00EEBF8E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				119A35FA1FB3BC210072448F /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		119A35ED1FB3BBC70072448F /* PAVYL-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "PAVYL-iOS.xcodeproj"; sourceTree = "<group>"; };
+		119A35F01FB3BBFD0072448F /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-3.0.4/Charts.xcodeproj"; sourceTree = "<group>"; };
+		119A35FD1FB3C4690072448F /* EnterDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDataController.swift; sourceTree = "<group>"; };
+		119A35FF1FB3C4A70072448F /* DataDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDetailController.swift; sourceTree = "<group>"; };
+		119A36011FB3C7990072448F /* ChooseDateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDateController.swift; sourceTree = "<group>"; };
+		119A36031FB3C83D0072448F /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		119A36051FB3C8660072448F /* GraphController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphController.swift; sourceTree = "<group>"; };
+		119A36071FB3CB020072448F /* NetHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetHandler.swift; sourceTree = "<group>"; };
+		119A360B1FB3CB2E0072448F /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		119A360D1FB3CCB00072448F /* OperationsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationsManager.swift; sourceTree = "<group>"; };
+		119A360F1FB3D0880072448F /* RatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatData.swift; sourceTree = "<group>"; };
+		119A36111FB3DB8F0072448F /* AuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHandler.swift; sourceTree = "<group>"; };
+		119A36131FB3E0780072448F /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
 		11A6648F1FB3A19200EEBF8E /* PAVYL-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PAVYL-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A664921FB3A19200EEBF8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11A664941FB3A19200EEBF8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11A664941FB3A19200EEBF8E /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		11A664971FB3A19200EEBF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11A664991FB3A19200EEBF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A6649C1FB3A19200EEBF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +112,10 @@
 		11A664AE1FB3A19300EEBF8E /* PAVYL-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PAVYL-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A664B21FB3A19300EEBF8E /* PAVYL_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAVYL_iOSUITests.swift; sourceTree = "<group>"; };
 		11A664B41FB3A19300EEBF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A664DD1FB3B41100EEBF8E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		11A664DF1FB3B43900EEBF8E /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		11A664E11FB3B44900EEBF8E /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		11A664E31FB3B56700EEBF8E /* RatDataListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatDataListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119A35F91FB3BC210072448F /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +144,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		119A35EE1FB3BBC70072448F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		119A35F11FB3BBFD0072448F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				119A35F61FB3BBFE0072448F /* Charts.framework */,
+				119A35F81FB3BBFE0072448F /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		11A664861FB3A19200EEBF8E = {
 			isa = PBXGroup;
 			children = (
+				119A35F01FB3BBFD0072448F /* Charts.xcodeproj */,
+				119A35ED1FB3BBC70072448F /* PAVYL-iOS.xcodeproj */,
 				11A664911FB3A19200EEBF8E /* PAVYL-iOS */,
 				11A664A61FB3A19300EEBF8E /* PAVYL-iOSTests */,
 				11A664B11FB3A19300EEBF8E /* PAVYL-iOSUITests */,
@@ -97,12 +183,27 @@
 		11A664911FB3A19200EEBF8E /* PAVYL-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				119A360D1FB3CCB00072448F /* OperationsManager.swift */,
+				119A36071FB3CB020072448F /* NetHandler.swift */,
 				11A664921FB3A19200EEBF8E /* AppDelegate.swift */,
-				11A664941FB3A19200EEBF8E /* ViewController.swift */,
+				11A664941FB3A19200EEBF8E /* WelcomeController.swift */,
 				11A664961FB3A19200EEBF8E /* Main.storyboard */,
 				11A664991FB3A19200EEBF8E /* Assets.xcassets */,
 				11A6649B1FB3A19200EEBF8E /* LaunchScreen.storyboard */,
 				11A6649E1FB3A19200EEBF8E /* Info.plist */,
+				11A664DD1FB3B41100EEBF8E /* LoginController.swift */,
+				11A664DF1FB3B43900EEBF8E /* RegisterController.swift */,
+				11A664E11FB3B44900EEBF8E /* MainController.swift */,
+				11A664E31FB3B56700EEBF8E /* RatDataListController.swift */,
+				119A35FD1FB3C4690072448F /* EnterDataController.swift */,
+				119A35FF1FB3C4A70072448F /* DataDetailController.swift */,
+				119A36011FB3C7990072448F /* ChooseDateController.swift */,
+				119A36031FB3C83D0072448F /* MapController.swift */,
+				119A36051FB3C8660072448F /* GraphController.swift */,
+				119A360B1FB3CB2E0072448F /* SharedData.swift */,
+				119A360F1FB3D0880072448F /* RatData.swift */,
+				119A36111FB3DB8F0072448F /* AuthHandler.swift */,
+				119A36131FB3E0780072448F /* DataHandler.swift */,
 			);
 			path = "PAVYL-iOS";
 			sourceTree = "<group>";
@@ -135,10 +236,12 @@
 				11A6648B1FB3A19200EEBF8E /* Sources */,
 				11A6648C1FB3A19200EEBF8E /* Frameworks */,
 				11A6648D1FB3A19200EEBF8E /* Resources */,
+				11A664CD1FB3AA3A00EEBF8E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				119A35FC1FB3BC210072448F /* PBXTargetDependency */,
 			);
 			name = "PAVYL-iOS";
 			productName = "PAVYL-iOS";
@@ -218,6 +321,16 @@
 			mainGroup = 11A664861FB3A19200EEBF8E;
 			productRefGroup = 11A664901FB3A19200EEBF8E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 119A35F11FB3BBFD0072448F /* Products */;
+					ProjectRef = 119A35F01FB3BBFD0072448F /* Charts.xcodeproj */;
+				},
+				{
+					ProductGroup = 119A35EE1FB3BBC70072448F /* Products */;
+					ProjectRef = 119A35ED1FB3BBC70072448F /* PAVYL-iOS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				11A6648E1FB3A19200EEBF8E /* PAVYL-iOS */,
@@ -226,6 +339,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		119A35F61FB3BBFE0072448F /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 119A35F51FB3BBFE0072448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		119A35F81FB3BBFE0072448F /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 119A35F71FB3BBFE0072448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		11A6648D1FB3A19200EEBF8E /* Resources */ = {
@@ -259,7 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A664951FB3A19200EEBF8E /* ViewController.swift in Sources */,
+				11A664E01FB3B43900EEBF8E /* RegisterController.swift in Sources */,
+				11A664E41FB3B56700EEBF8E /* RatDataListController.swift in Sources */,
+				119A35FE1FB3C4690072448F /* EnterDataController.swift in Sources */,
+				119A36021FB3C7990072448F /* ChooseDateController.swift in Sources */,
+				119A36141FB3E0780072448F /* DataHandler.swift in Sources */,
+				119A36081FB3CB020072448F /* NetHandler.swift in Sources */,
+				11A664E21FB3B44900EEBF8E /* MainController.swift in Sources */,
+				119A36121FB3DB8F0072448F /* AuthHandler.swift in Sources */,
+				119A360E1FB3CCB10072448F /* OperationsManager.swift in Sources */,
+				11A664951FB3A19200EEBF8E /* WelcomeController.swift in Sources */,
+				119A36101FB3D0880072448F /* RatData.swift in Sources */,
+				119A360C1FB3CB2E0072448F /* SharedData.swift in Sources */,
+				11A664DE1FB3B41100EEBF8E /* LoginController.swift in Sources */,
+				119A36061FB3C8660072448F /* GraphController.swift in Sources */,
+				119A36001FB3C4A70072448F /* DataDetailController.swift in Sources */,
+				119A36041FB3C83D0072448F /* MapController.swift in Sources */,
 				11A664931FB3A19200EEBF8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +428,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		119A35FC1FB3BC210072448F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 119A35FB1FB3BC210072448F /* PBXContainerItemProxy */;
+		};
 		11A664A51FB3A19300EEBF8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 11A6648E1FB3A19200EEBF8E /* PAVYL-iOS */;
@@ -425,6 +575,7 @@
 		11A664B81FB3A19300EEBF8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBY56UWVE3;
@@ -440,6 +591,7 @@
 		11A664B91FB3A19300EEBF8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBY56UWVE3;
