@@ -23,7 +23,9 @@ class RegisterController : UIViewController
                 if passwordField.text! == confirmField.text! {
                     spinner.startAnimating()
                     
-                    AuthHandler.login(username: usernameField.text!, password: passwordField.text!, responseHandler: {(response) in
+                    let extra = "admin=" + String(adminSwitch.isOn)
+                    
+                    AuthHandler.register(username: usernameField.text!, password: passwordField.text!, extra: extra, responseHandler: {(response) in
                         self.spinner.stopAnimating()
                         if response.accept {
                             let menu:UINavigationController = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigation") as! UINavigationController
